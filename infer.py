@@ -31,8 +31,9 @@ from  utils.BiLSTM_2 import get_predict_BiLSTM_2
 from utils.GRU import get_predict_GRU_with_attention_ver7
 from utils.predict import predict
 
-model_name = str(input())
-sentence = str(input())
+model_name = input("Enter model name: ")  # Use input() to get user input for model name
+sentence = input("Enter sentence: ")  
+
 model_path = download_model(model_name)
 
 predictions = predict(model_path=model_path, sentence=sentence)

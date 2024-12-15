@@ -1,0 +1,12 @@
+tensorflow
+datasets
+numpy
+pickle
+bert-score
+transformers 
+valuate 
+accelerate
+rouge_score
+nltk
+torch
+wandb

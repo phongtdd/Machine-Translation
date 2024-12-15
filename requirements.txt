@@ -10,3 +10,4 @@ rouge_score
 nltk
 torch
 wandb
+sentencepiece

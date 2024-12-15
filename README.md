@@ -15,20 +15,9 @@ Mini-project for course of Intro to Deep Learning, with the aim of developing a 
 - [References](#references)
 
 # Dataset
-Dataset: https://huggingface.co/Sag1012/machine-translation
-
-This dataset is already splitted in 3 parts: **Train, Validation, Test**
-
-|       | Train      | Validation | Test   |
-|-------|------------|------------|--------|
-| Number of examples | 2,884,451  | 11,316  | 11,225 |
-
-<br>
-
-Each example contains 3 features:
-- *en*: The English sentence.
-- *vi*: The corresponding Vietnamese sentence.
-- *source*: The source from which this example is taken.
+PhoMT is a high-quality and large-scale Vietnamese-English parallel dataset of 3.02M sentence pairs for machine-translation. 
+The dataset construction process involves collecting parallel document pairs, preprocessing for cleaning and quality, aligning parallel 
+sentences, and postprocessing to filter out duplicates and verify set quality
 
 # How to use our code
 ## Installation
